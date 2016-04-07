@@ -1,0 +1,48 @@
+{
+  "name": "rp-dungeon-inspector",
+  "version": "1.0.0",
+  "description": "Deep in a world of chaos-ridden dungeons, order must be restored. This heavy burden falls to the real inspector, the best inspector: Ron Paul. Become a dungeon inspector and restore order to the world one dungeon at a time. Ensure any dungeon you inspect is nothing less than fan-fucking-tastic.",
+  "main": "game/index.js",
+  "scripts": {
+    "setup": "jspm install",
+    "server": "browser-sync start --files \"game/**, index.html, jspm.config.js\" --server",
+    "lint": "echo \"No lint step defined\"",
+    "build": "echo \"No build step defined\"",
+    "test": "npm run lint && npm run build",
+    "start": "npm run server",
+    "pretest": "npm install",
+    "prestart": "npm install",
+    "postinstall": "[ \"$NODE_ENV\" != production ] && npm run setup || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanneves/rp-dungeon-inspector.git"
+  },
+  "keywords": [
+    "game",
+    "roguelike",
+    "2d"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanneves/rp-dungeon-inspector/issues"
+  },
+  "homepage": "https://github.com/yanneves/rp-dungeon-inspector#readme",
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "handlebars": "github:components/handlebars.js@^4.0.5",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "lodash": "npm:lodash@^4.7.0",
+      "phaser": "github:photonstorm/phaser@^2.4.6",
+      "text": "github:systemjs/plugin-text@^0.0.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

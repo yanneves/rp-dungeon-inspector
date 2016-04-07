@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en_gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ron Paul: Dungeon Inspector</title>
+    <meta name="description" content="Deep in a world of chaos-ridden dungeons, order must be restored. This heavy burden falls to the real inspector, the best inspector: Ron Paul. Become a dungeon inspector and restore order to the world one dungeon at a time. Ensure any dungeon you inspect is nothing less than fan-fucking-tastic.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--[if lt IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Game Container -->
+    <div id="game"></div>
+
+    <!-- Modal Dialog -->
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog"></div>
+
+    <!-- SystemJS Loader -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="jspm.config.js"></script>
+
+    <!-- Application Source -->
+    <script>
+      System.import('game/index')
+    </script>
+
+  </body>
+</html>

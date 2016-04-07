@@ -1,0 +1,36 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4 class="modal-title">{{ name }}</h4>
+    </div>
+    <div class="modal-body">
+      <img src="assets/hazards/{{ key }}.png" id="normalImage" class="img-responsive" alt="Normal" />
+      <img src="assets/hazards/{{ key }}_good.png" id="goodImage" class="img-responsive" alt="Good" style="display: none" />
+      <img src="assets/hazards/{{ key }}_bad.png" id="badImage" class="img-responsive" alt="Bad" style="display: none" />
+      <p>{{ description }}</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary" onclick="activateGood()">{{ goodAction }}</button>
+      <button type="button" class="btn btn-warning" data-dismiss="modal" onclick="activateBad()">{{ badAction }}</button>
+    </div>
+  </div>
+
+  <script>
+    var norm = document.getElementById('normalImage')
+    var good = document.getElementById('goodImage')
+    var bad = document.getElementById('badImage')
+
+    function activateGood() {
+      norm.style.display = 'none'
+      good.style.display = 'inherit'
+      bad.style.display = 'none'
+    }
+
+    function activateBad() {
+      norm.style.display = 'none'
+      good.style.display = 'none'
+      bad.style.display = 'inherit'
+    }
+  </script>
+</div>

@@ -1,0 +1,112 @@
+[
+	{
+		"name": "Table and Chairs",
+    "next": "Shelves",
+    "state": "bad",
+		"description": "A large dining room table surrounded by chairs fills up most of the room. You notice that the end chair has a broken leg.",
+		"goodAction": "Put tape on the leg in an attempt to fix it",
+		"badAction": "Leave the chair and hope that it will hold",
+		"goodOutcome": "Uthgerd sits in the end chair at the table to see what it would be like to be a King at a feast. The tape holds well.",
+		"badOutcome": "Uthgerd sits in the end chair, not noticing that it is broken and crashes to the ground."
+
+	},
+	{
+		"name": "Shelves",
+    "next": "Barrels 1",
+    "state": "bad",
+		"description": "There are some shelves. On some of the shelves there are very old bottles. You can’t quite make out what it says on the labels.",
+		"goodAction": "Replace the bottles with newer ones",
+		"badAction": "Leave the old bottles",
+		"goodOutcome": "Uthgerd admires the sparkly new bottles and doesn’t want to mess them up.",
+		"badOutcome": "Uthgerd accidentally drinks a super size potion thinking it was ale. Her rapid growth into the ceiling causes lethal head injuries."
+
+	},
+	{
+		"name": "Barrels 1",
+    "next": "Pond",
+    "state": "bad",
+		"description": "There is a group of 4 barrels in the corner. Other than being a bit dusty they seem fine.",
+		"goodAction": "Give the barrels a quick dusting",
+		"badAction": "Get Consuela, the cleaner, to go over them",
+		"goodOutcome": "After she looks in the barrels to see if there’s any ale, Uthgerd carries on.",
+		"badOutcome": "Consuela says \"No, no, I no clean\". Uthgerd inhales the dust and discovers that it is poisonous to Nord warriors."
+
+	},
+	{
+		"name": "Pond",
+    "next": "Bushes",
+    "state": "bad",
+		"description": "There is a quaint, medium sized pond. Whilst admiring your reflection you spot what seems to be a small fish. On further inspection you realize that it is a flesh eating piranha.",
+		"goodAction": "Replace the piranha with a harmless goldfish",
+		"badAction": "Leave the piranha and try to remember to give it some fish nibbles for lunch",
+		"goodOutcome": "Uthgerd loves the goldfish and decides it is her new favorite animal.",
+		"badOutcome": "No one gave the piranha its fish nibbles so Uthgerd’s flesh becomes the piranha’s lunch."
+
+	},
+	{
+		"name": "Bushes",
+    "next": "Water on Floor",
+    "state": "bad",
+		"description": "In the corner there is some well trimmed bushery. You take a step closer when suddenly an army of tiny goblins leaps out.",
+		"goodAction": "Take a survey to ensure the wellbeing of the goblins",
+		"badAction": "Say a quick hello then continue on your way",
+		"goodOutcome": "The goblins leap out in synchronisation at Uthgerd and give her a friendly scare.",
+		"badOutcome": "Uthgerd catches the common goblin cold which turns out to be lethal to Nord warriors."
+
+	},
+	{
+		"name": "Water on Floor",
+    "next": "Torch 1",
+    "state": "bad",
+		"description": "Someone has splashed water all over the floor from the mop and not cleaned it up.",
+		"goodAction": "Put down a ‘slippery when wet’ sign",
+		"badAction": "Leave the water to be cleared up",
+		"goodOutcome": "Uthgerd spots the slippery when wet sign and avoids the water.",
+		"badOutcome": "Uthgerd doesn’t spot the water and rides a water slide of death."
+
+	},
+	{
+		"name": "Torch 1",
+    "next": "Piano",
+    "state": "bad",
+		"description": "There are torches along all of the walls. You spot that this torch isn’t lit.",
+		"goodAction": "Light the torch",
+		"badAction": "Leave the torch because you’re scared that you’ll get burnt",
+		"goodOutcome": "Uthgerd’s path is well lit.",
+		"badOutcome": "The lighting is insufficient. Lurking in the shadows is a monstrous dragon. Uthgerd is burnt to a crisp."
+
+	},
+	{
+		"name": "Torch 2",
+    "next": "Piano",
+    "state": "bad",
+		"description": "There are torches along all of the walls. You spot that this torch isn’t lit.",
+		"goodAction": "Light the torch",
+		"badAction": "Leave the torch because you’re scared that you’ll get burnt",
+		"goodOutcome": "Uthgerd’s path is well lit.",
+		"badOutcome": "The lighting is insufficient. Lurking in the shadows is a monstrous dragon. Uthgerd is burnt to a crisp."
+
+	},
+	{
+		"name": "Piano",
+    "next": "Barrels 2",
+    "state": "bad",
+		"description": "You approach the piano to play your amazing tunes. You place your hands on what you think are the keys but instead you awaken the human eating piano.",
+		"goodAction": "Replace the human eating piano with a real piano",
+		"badAction": "Leave the human eating piano because you don’t want to get on its bad side",
+		"goodOutcome": "Uthgerd has always wanted to play a piano so has a wonderful time.",
+		"badOutcome": "Uthgerd has always wanted to play a piano. She awakens the human eating piano which is in a bad mood and swallows her whole."
+
+	},
+	{
+		"name": "Barrels 2",
+    "next": "title",
+    "state": "bad",
+		"description": "You spot some barrels. On close inspection you see that there is a poison potion placed on top of them. Ron is not happy with this however, he wants to be back in time for dinner.",
+		"goodAction": "Hastily place safety cones and caution tape around the barrels",
+		"badAction": "Leave them and hope for the best",
+		"goodOutcome": "Uthgerd spots the safety cones and caution tape and, sticking to the Nord warrior code, avoids the barrels.",
+		"badOutcome": "Uthgerd spots the barrels and with her curiosity is enticed to take a swig from the bright green bottle, despite warning labels. She dies of explosive diarrhoea 3 days later."
+
+	}
+]
